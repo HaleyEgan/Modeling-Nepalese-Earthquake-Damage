@@ -15,7 +15,7 @@ Each building has a unique id, and has a corresponding damage grade (1 = low dam
 ### Analysis
 Bayesian Data Analysis techniques are used to model and predict this data set. Why? Linear Discriminant Analysis (LDA), Quadratic Discriminant Analysis (QDA), and Logistic Regression are the models used in this report to predict building damage levels. The data is processed and modeled in Python, using packages such as pymc, pandas, numpy, scipy and sklearn. 
 
-##### Priors
+#### Priors
 The two sets of priors were used for each model. The first set of priors are gathered from initial observations of building damage through photos, videos, and articles of the 2015 earthquake. Based on this prior knowledge, it was initially observed that very few buildings experienced no or little damage (damage grade 1). Most buildings experienced some level of damage (damage grade 2), and many (more than a few, but less than ‘most’) buildings experienced complete destruction (damage grade 3). Based on this prior knowledge, the damage grades were given the following prior value: damage grade 1 = 5%, damage grade 2 = 70%, damage grade 3 = 25%.   
 
 The second set of priors are used as a comparison to the first priors, and are calculated from the observed proportion of building damage per level. While this method is not based on ‘prior knowledge’, it can help in the understanding of how well the initial priors performed. For damage grade 1, the observed proportion (buildings per grade/total buildings) for the training dataset is 0.0965, about 9.7%. For damage grade 2, the observed proportion for the training set is 0.5695, or about 57%. For damage grade 3, the observed proportion for the training set is 0.3339, or about 33.4%. 
