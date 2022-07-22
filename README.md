@@ -1,4 +1,4 @@
-# Modeling Earthquake Building Damage 
+# Modeling Earthquake Building Damage - Nepal
 
 ### Introduction
 In 2015 there was a 7.8 magnitude earthquake near Gorkha, Nepal. The damage devastated the community. About 9,000 people were killed, millions of people lost their homes, and there was about $10 billion in damage. The Nepalese government is still working to rebuild the affected area. During the years of recovery, the National Planning Commission, Kathmandu Living Labs, and the Central Bureau of Statistics have collected one of the largest post-disaster datasets ever. This data contains valuable information on earthquake structural damage and socio-economic impacts. 
